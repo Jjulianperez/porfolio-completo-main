@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Julian Pérez | Front-end Developer</title>
+</head>
+
+<body>
+    <header>
+            <div class="contenido-header">
+                <h1>JP</h1>
+                <nav id="nav">
+                    <ul id="links">
+                        <li><a href="#inicio" class="seleccionado">INICIO</a></li>
+                        <li><a href="#sobremi">SOBRE MÍ</a></li>
+                        <li><a href="#servicios">SERVICIOS</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#contacto">CONTACTO</a></li>
+                    </ul>
+                </nav>
+                <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="redes">
+                    <a href="https://github.com/Jjulianperez" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/julian-p%C3%A9rez-770b48333/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </header>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Julian Pérez</span><br>Front-end Developer</h2>
+                <p class="descripcion">
+                    Desarrollo interfaces modernas, intuitivas y funcionales.
+                    Creo soluciones tecnológicas a problemas reales para mejorar la eficiencia
+                    y llevar proyectos al siguiente nivel.
+                </p>
+                <a href="#portfolio">Ver proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="/img/Julian tumbler2.jpg" alt="Julian Pérez">
+        </div>
+        <div class="sobremi">
+        <p class="titulo-seccion">Sobre mí</p>
+        <h2>Hola, soy <span>Julian Pérez</span></h2>
+        <h3>Front-end Developer</h3>
+
+        <div class="texto">
+            <p>
+                Soy desarrollador Front-end en crecimiento, con experiencia real en empresas
+                de software a medida.
+            </p>
+
+            <p>
+                Aprendo rápido, me adapto a equipos ágiles y me enfoco en escribir código limpio,
+                mantenible y escalable.
+            </p>
+
+            <p class="destacado">
+                Pensamiento crítico, análisis y resolución de problemas.
+            </p>
+
+            <p>
+                Con empatía, compromiso y ganas de aprender, puedo potenciar no solo el producto,
+                sino también al equipo de trabajo.
+            </p>
+    </div>
+
+    <a href="./media/Front-end CV - copia.pdf" download>Descargar CV</a>
+</div>
+
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Mis Servicios</h3>
+
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Desarrollo Front-end</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>React</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>Zustand</li>
+                    <li>TanStack</li>
+                    <li>SCSS/CSS</li>
+                    <li>UX / UI</li>
+                </ul>
+                <p>
+                    Desarrollo de interfaces modernas, escalables y mantenibles,
+                    aplicando buenas prácticas.
+                </p>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-layer-group"></i></span>
+                <h4>Aplicaciones Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>React</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>APIs REST</li>
+                    <li>Zustand</li>
+                    <li>TanStack</li>
+                    <li>PHP</li>
+                    <li>SQL</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                </ul>
+                <p>
+                    Diseño y desarrollo aplicaciones web funcionales y escalables, enfocadas en resolver problemas reales y potenciar la eficiencia de tu negocio.
+                </p>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-pen-ruler"></i></span>
+                <h4>Diseño de Aplicaciones</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Figma</li>
+                    <li>Excalidraw</li>
+                    <li>SmartDraw</li>
+                    <li>UX / UI</li>
+                </ul>
+                <p>
+                    Diseño y planificación de aplicaciones antes del desarrollo,flujos de usuario y estructuras claras
+                    para reducir errores y acelerar la implementación.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION STACK TECNOLOGICO -->
+    <section class="contenedor-skills" id="skills">
+        <h3 class="titulo-seccion">Stack Tecnológico</h3>
+
+        <div class="stack-grid">
+            <div class="stack-item"><i class="fa-brands fa-react"></i><span>React</span></div>
+            <div class="stack-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+            <div class="stack-item"><i class="fa-brands fa-php"></i><span>PHP</span></div>
+            <div class="stack-item"><i class="fa-brands fa-css3-alt"></i><span>CSS / SCSS</span></div>
+            <div class="stack-item"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+            <div class="stack-item"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+            <div class="stack-item"><i class="fa-solid fa-database"></i><span>SQL</span></div>
+            <div class="stack-item"><i class="fa-solid fa-layer-group"></i><span>Zustand</span></div>
+            <div class="stack-item"><i class="fa-solid fa-bolt"></i><span>TanStack</span></div>
+            <div class="stack-item"><i class="fa-solid fa-paper-plane"></i><span>PostMan</span></div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Proyectos</h3>
+
+        <div class="portfolio-grid">
+
+            <a href="https://github.com/Jjulianperez/Rick-and-Morty/tree/develop"
+            target="_blank"
+            class="proyecto-card">
+
+                <img src="img/Proyecto Rick and Morty.png" alt="Rick and Morty App">
+
+                <div class="proyecto-overlay">
+                    <h4>Rick and Morty App</h4>
+
+                    <p class="descripcion">
+                        Aplicación web que consume una API externa,
+                        con filtros avanzados, estado global y carga eficiente de datos.
+                    </p>
+                    <p class="destacado">Proyecto en mi pasantía en Bewise</p>
+
+                    <div class="techs">
+                        <span>React</span>
+                        <span>TypeScript</span>
+                        <span>SCSS</span>
+                        <span>Zustand</span>
+                        <span>TanStack</span>
+                        <span>SCSS</span>
+                        <span>Axios</span>
+                        <span>JsonServer</span>
+                        <span>Formik</span>
+                        <span>yup</span>
+                    </div>
+                </div>
+
+            </a>
+            <a href="https://github.com/Jjulianperez/Voto-Electronico"
+            target="_blank"
+            class="proyecto-card">
+
+                <img src="img/Proyecto Voto Electronico.png" alt="Voto Electronico">
+
+                <div class="proyecto-overlay">
+                    <h4>Voto Electronico</h4>
+                    <p class="descripcion">
+                        Aplicación web que permite a los alumnos votar al presidente del Centro de Estudiantes,
+                        con gráficos y conteo automático, manejo de datos CRUD con roles de administrador y alumno.
+                    </p>
+
+                    <div class="techs">
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>CSS</span>
+                        <span>Node.js</span>
+                        <span>SQLITE</span>
+                        <span>Express</span>
+                        <span>ByCrypt</span>
+                        <span>xlsx</span>
+                        <span>Cors</span>
+                        <span>React-router-dom</span>
+                        <span>Multer</span>
+                    </div>
+                </div>
+
+            </a>
+            <a href="https://github.com/Jjulianperez/TurneroMaster"
+            target="_blank"
+            class="proyecto-card">
+
+                <img src="img/Proyecto Turnero master.png" alt="Turnero master">
+
+                <div class="proyecto-overlay">
+                    <h4>Turnero Master</h4>
+
+                    <p class="descripcion">
+                        Aplicación web que permite a los usuarios sacar turnos para una barberia,
+                        con buscador de turnos y boton de ,.
+                    </p>
+                    <div class="techs">
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>CSS</span>
+                        <span>Dotenv</span>
+                        <span>Cors</span>
+                        <span>Express</span>
+                        <span>Mongoose</span>
+                        <span>React-dom</span>
+                    </div>
+                </div>
+
+            </a>
+            <a href="https://github.com/Jjulianperez/Clinica-System"
+            target="_blank"
+            class="proyecto-card">
+
+                <img src="img/Proyecto Clinica System.png" alt="clinica system">
+
+                <div class="proyecto-overlay">
+                    <h4>Clinica System</h4>
+
+                    <p class="descripcion">
+                        Aplicación web que permite ayudar a los usuarios a sacar turnos para una clinica,
+                        con buscador de medicos ,historial de pasientes, agenda para el rol de Medico y filtros.
+                    </p>
+
+                    <div class="techs">
+                        <span>HTML:5</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                        <span>MySql</span>
+                    </div>
+                </div>
+
+            </a>
+            <a href="https://github.com/Jjulianperez/Bot-Telegram-Casino"
+            target="_blank"
+            class="proyecto-card">
+
+                <img src="img/Bot relegram casino.png" alt="Rick and Morty App">
+
+                <div class="proyecto-overlay">
+                    <h4>Bot Asistente de Casino</h4>
+                    <p class="descripcion">
+                        Creé un bot de Telegram que recopila automáticamente los resultados de los jugadores y los envía a un chat privado, evitando que mi cliente pierda tiempo buscando y anotando datos en su Excel.
+                    </p>
+
+                    <div class="techs">
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
+                        <span>Telegraf</span>
+                    </div>
+                </div>
+
+            </a>
+            <a href="https://github.com/Jjulianperez/Carrito-De-compras"
+            target="_blank"
+            class="proyecto-card">
+
+                <img src="img/Proyecto Carrito.png  " alt="Rick and Morty App">
+
+                <div class="proyecto-overlay">
+                   <h4>Carrito de Compras</h4>
+                    <p class="descripcion">
+                        Proyecto desarrollado en una pasantía de Kaizen Software,
+                        enfocado en detectar errores y proponer soluciones,
+                        consumiendo una API privada con endpoints definidos por la empresa.
+                    </p>
+                    <p class="destacado">Proyecto de pasantía – Kaizen Software</p>
+                    <div class="techs">
+                        <span>Html</span>
+                        <span>JavaScript</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+
+            </a>
+
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contacto</h3>
+
+        <div class="contacto-grid">
+
+            <a href="https://github.com/Jjulianperez" target="_blank" class="contacto-card">
+                <i class="fa-brands fa-github"></i>
+                <h4>GitHub</h4>
+                <p>Ver mis proyectos y repositorios</p>
+            </a>
+
+            <a href="mailto:juliandeveloper45@gmail.com" class="contacto-card">
+                <i class="fa-solid fa-envelope"></i>
+                <h4>Email</h4>
+                <p>juliandeveloper45@gmail.com</p>
+            </a>
+
+            <a href="https://www.linkedin.com/in/julian-p%C3%A9rez-770b48333/" target="_blank" class="contacto-card">
+                <i class="fa-brands fa-linkedin"></i>
+                <h4>LinkedIn</h4>
+                <p>Conectemos profesionalmente</p>
+            </a>
+
+        </div>
+    </section>
+
+
+   <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-contenido">
+            <p>© 2025 <span>Julian Pérez</span>. Todos los derechos reservados.</p>
+
+            <div class="redes">
+                <a href="https://github.com/Jjulianperez" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/julian-p%C3%A9rez-770b48333/" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
